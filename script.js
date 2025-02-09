@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+    $('body').on('click','.calcular',function(){
+        calcular();
+    });
+
     function calcular() {
         // Obtenha os valores dos campos de entrada, convertendo para números
         const qmax = parseFloat(document.getElementById("qmax").value);
