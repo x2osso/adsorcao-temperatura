@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.stroke();
     }
     
-}
+});
 
 
 
