@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     $('body').on('click','.calcular',function(){
         calcular();
+        console.log('Teste');
     });
 
     function calcular() {
