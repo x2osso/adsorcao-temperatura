@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const q = [];
         for (let i = T_inicial; i <= T_final; i++) {
             T.push(i);
-            q.push((qmax * b * C) / (1 + b * C) * Math.exp(-1000 / (8.314 * i));
+            q.push(((qmax * b * C) / (1 + b * C)) * Math.exp((-1000 / (8.314 * i))));
         }
     
         // Crie o gráfico (você pode usar uma biblioteca como Chart.js)
