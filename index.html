@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adsorção vs. Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Adsorção em função da temperatura</h1>
+
+    <label for="qmax">qmax (mg/g):</label>
+    <input type="number" id="qmax" value="100"><br><br>
+
+    <label for="b">b (L/mg):</label>
+    <input type="number" id="b" value="0.01"><br><br>
+
+    <label for="C">C (mg/L):</label>
+    <input type="number" id="C" value="100"><br><br>
+
+    <label for="T_inicial">Temperatura Inicial (K):</label>
+    <input type="number" id="T_inicial" value="250"><br><br>
+
+    <label for="T_final">Temperatura Final (K):</label>
+    <input type="number" id="T_final" value="350"><br><br>
+
+    <button onclick="calcular()">Calcular</button>
+
+    <div id="grafico"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
